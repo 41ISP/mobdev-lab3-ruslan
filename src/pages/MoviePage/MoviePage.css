@@ -1,0 +1,143 @@
+.movie-page {
+    width: 100vw;
+    min-height: 100%; 
+    background: var(--color-1);
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+.movie-page__poster-desc{
+    display: flex;
+    gap: 65px;
+    
+}
+
+.movie-page__actors h2{
+    font-size: 24px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.movie-page__awards h2{
+    font-size: 24px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.movie-page__country h2{
+    font-size: 24px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.movie-page__plot h2{
+    font-size: 24px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.movie-page__released h2{
+    font-size: 24px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.movie-page__year h2{
+    font-size: 24px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.movie-page__rating h2{
+    font-size: 24px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+
+
+.movie-page__actors{
+    margin-top: 15px;
+}
+
+.movie-page__awards{
+    margin-top: 15px;
+}
+
+.movie-page__country{
+    margin-top: 15px;
+}
+
+.movie-page__plot{
+    margin-top: 15px;
+}
+
+.movie-page__released{
+    margin-top: 15px;
+}
+
+.movie-page__year{
+    margin-top: 15px;
+}
+
+.movie-page__rating{
+    margin-top: 15px;
+}
+
+.title{
+    text-align: start;
+    font-size: 46px;
+}
+
+.container {
+    padding-right: 20%;
+    margin: auto;
+    font-size: 20px;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+
+.movie__desc{
+    width: 60vh;
+    font-family: Bahnschrift;
+    position: relative;
+}
+
+.movie__desc > * {
+    z-index: 9000;
+    position: relative;
+}
+
+.movie__desc button{
+    margin-top: 70px;
+    margin-left: 5px;
+}
+
+.movie__desc::before {
+    content: "";
+    position: absolute;
+    left: -30px;
+    width: 8px;
+    background-color: rgba(179, 179, 179);
+    height: 100%;
+    display: inline;
+    border-radius: 25px;
+    margin-top: 0px;
+}
+
+.movie-page__poster{
+    width: 46vh;
+    height: auto;
+    border-radius: 25px;
+    border: 3.5px solid #00a878;
+}
+
+.star {
+    position: absolute;
+    left: 120%;
+    top: -11.3%;
+    z-index: 1;
+}

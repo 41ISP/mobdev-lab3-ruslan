@@ -1,0 +1,6 @@
+.button {
+    background-color: var(--color-3);
+    font-size: 16px;
+    font-family: Bahnschrift;
+    margin: 5px;
+}
